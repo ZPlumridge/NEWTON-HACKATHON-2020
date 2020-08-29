@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>randomquotes.com</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!--imports jquery to access DOM in javascript-->
+  </head>
+  <body>
+    <div class="container">
+      <h1>INSPIRATIONAL QUOTE GENERATOR</h1>
+      
+      <h3>Click on the face representing how you feel today and we will give you some encouragement based on it to inspire your day!</h3>
+        
+      <div id = "emojis"> 
+        <div class = "happy"> 
+          <img src = "happy.png" style = "width:50px; height:50px" id="happy"> <label><br /><b>Happy</b> </label>
+        </div>
+      
+        <div class = "sad">
+          <img src = "sad.png" style = "width:50px; height:50px" id="sad">
+          <label> <br> <b>Sad</b> </label> 
+        </div> 
+
+        <div class = "angry"> 
+          <img src = "mad.png" id="angry" style = "width:50px; height:50px">
+          <label> <br> <b>Angry</b> </label> 
+        </div>
+        
+        <div class = "confused"> 
+          <img src = "confused.png" style = "width:50px; height:50px" id="confused"> 
+          <label> <br> <b>Confused</b> </label>
+        </div>
+        
+        <div class = "tired"> 
+          <img src = "tired.png" style = "width:50px; height:50px" id="tired"> 
+          <label> <br> <b>Tired</b> </label>
+        </div>
+
+        <div class = "scared"> 
+          <img src = "scared.png" style = "width:50px; height:50px" id="scared"> 
+          <label> <br> <b>Scared</b> </label>
+        </div>
+      </div> 
+      
+      <div id = "output">
+        <h2 id="quoteOutput"></h2> 
+      </div>
+
+      <div id="buttons">
+      <button id="retry"> Reset </button> 
+
+      <button id="misc"> Miscellaneous </button>
+      
+      </div> 
+    
+    </div>
+  
+    <script src="script.js"></script>
+  </body>
+</html>

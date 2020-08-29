@@ -1,0 +1,120 @@
+
+body {
+  background-color:lavenderblush;
+}
+
+h1{
+  padding:30px;
+  border: 10px dotted gray;
+}
+
+h1{
+  color:black ;
+  font-family:'Georgia New', georgia, serif ;
+  text-align: center;
+  text-shadow: 2px 0px 3px rgb(238, 62, 121);
+}
+h2{
+  color:black;
+  text-shadow: 2px 0px 5px gray;
+  font-family:'Georgia New', georgia, serif ;
+  text-align: center;
+  margin-left: 17%;
+  margin-right: 17%;
+}
+
+h3{
+  text-align: center;
+  padding:20px;
+  padding-right:40px;
+}
+
+#emojis {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+div#emojis div {
+  text-align: center;
+}
+
+.angry, .happy, .sad, .confused, .scared, .tired, {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.happy, .sad, .scared {
+  opacity: 110%;
+}
+
+.emojis label {
+  display: flex;
+  text-align: center;
+  align-self: center;
+  justify-self: center;
+}
+
+#angry:hover, .angryClick{
+  background-color:red;
+  border-radius: 30px;
+}
+
+#happy:hover, .happyClick{
+  background-color:yellow;
+  border-radius: 30px;
+}
+
+#sad:hover, .sadClick{
+  background-color:blue;
+  border-radius:30px;
+}
+
+#confused:hover, .confusedClick {
+  background-color:#00cf15;
+  border-radius:30px;
+}
+
+#scared:hover, .scaredClick {
+  background-color:#9849bf;
+  border-radius:30px;
+}
+
+#tired:hover, .tiredClick{
+  background-color:orange;
+  border-radius:30px;
+}
+
+#misc{
+  text-align:right;
+}
+
+#buttons {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+}
+button {
+  font-family: 'Georgia New', Georgia, serif;
+  font-size: 1.1em;
+  margin: 10px;
+  box-shadow: 2px 2px 10px black;
+  padding: 10px;
+}
+
+.hide {
+  opacity: 20%;
+}
+
+#quoteOutput{
+  height: 100px;
+  /*padding:10px;*/
+}
